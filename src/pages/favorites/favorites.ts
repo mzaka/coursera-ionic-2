@@ -31,6 +31,7 @@ export class FavoritesPage implements OnInit {
     this.favoriteservice.getFavorites()
       .subscribe(favorites => this.favorites = favorites,
         errmess => this.errMess = errmess);
+
   }
 
   ionViewDidLoad() {

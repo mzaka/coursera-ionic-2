@@ -5,6 +5,7 @@ import { Comment } from '../../shared/comment';
 import { FavoriteProvider } from '../../providers/favorite/favorite';
 import { CommentPage } from '../../pages/comment/comment';
 
+
 /**
  * Generated class for the DishdetailPage page.
  *
@@ -46,6 +47,9 @@ export class DishdetailPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad DishdetailPage');
   }
+
+
+
 
   addToFavorites() {
     console.log('Adding to Favorites', this.dish.id);
